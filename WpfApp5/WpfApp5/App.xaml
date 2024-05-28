@@ -1,0 +1,90 @@
+﻿<Application x:Class="WpfApp5.App"
+                 xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                 xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                 StartupUri="AuthorizationWindow.xaml">
+    <Application.Resources>
+
+    </Application.Resources>
+</Application>
+
+<!--1. Простейший SELECT:
+   
+
+    SELECT column1, column2 FROM table_name;
+    
+
+2. SELECT с условием (WHERE):
+   
+    SELECT column1, column2 FROM table_name WHERE condition;
+    
+
+3. SELECT с сортировкой (ORDER BY):
+
+    SELECT column1, column2 FROM table_name ORDER BY column1 ASC|DESC;
+    
+
+4. SELECT с группировкой (GROUP BY):
+
+    SELECT column1, COUNT(*) FROM table_name GROUP BY column1;
+    
+
+5. SELECT с условием на группировку (HAVING):
+   
+
+    SELECT column1, COUNT(*) FROM table_name GROUP BY column1 HAVING COUNT(*) > 1;
+    
+
+6. JOIN (соединение таблиц):
+   
+
+    SELECT a.column1, b.column2
+    FROM table1 a
+    JOIN table2 b ON a.common_field = b.common_field;
+    
+Запросы на изменение данных
+
+1. INSERT:
+   
+    INSERT INTO table_name (column1, column2) VALUES (value1, value2);
+    
+
+2. UPDATE:
+   
+    UPDATE table_name SET column1 = value1, column2 = value2 WHERE condition;
+    
+
+3. DELETE:
+   
+    DELETE FROM table_name WHERE condition;
+    
+
+Запросы на создание и изменение структуры таблиц
+
+1. CREATE TABLE:
+   
+    CREATE TABLE table_name (
+        column1 datatype CONSTRAINTS,
+        column2 datatype CONSTRAINTS,
+        ...
+    );
+    
+
+2. ALTER TABLE (добавление столбца):
+   
+    ALTER TABLE table_name ADD column_name datatype;
+    
+
+3. ALTER TABLE (изменение столбца):
+   
+    ALTER TABLE table_name MODIFY column_name new_datatype;
+    
+
+4. ALTER TABLE (удаление столбца):
+   
+    ALTER TABLE table_name DROP COLUMN column_name;
+    
+
+5. DROP TABLE:
+   
+    DROP TABLE table_name;-->
+    
